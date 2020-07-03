@@ -1,0 +1,51 @@
+.weatherDataCont {
+    background-color: rgb(56, 56, 56);
+    width: 450px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0 0 20px 20px;
+    margin: auto;
+}
+
+.weatherExtraInfoCount {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.weatherDataTemperatureCont { 
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.temperature {
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 30px;
+    color: indianred;
+
+}
+
+.weatherExtraInfoText {
+    color: white;
+}
+
+.temperature {
+    color: snow;
+}
+
+.temperatureType {
+    color: snow;
+    font-weight: bold;
+    padding-left: 10px;
+    
+}
+.weatherDataTemperatureCont i {
+    color: rgb(255, 195, 98);
+}
